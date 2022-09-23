@@ -1,6 +1,6 @@
 import { once } from '@storybook/client-logger';
 import { instrument } from '@storybook/instrumenter';
-import * as domTestingLibrary from '@testing-library/dom';
+import * as domTestingLibrary from 'testing-library__dom';
 import _userEvent from '@testing-library/user-event';
 import dedent from 'ts-dedent';
 
